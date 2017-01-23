@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link  rel="stylesheet"  type="text/css" href="style.css"/>
+    <title>Main Page</title>
+  </head>
+  <body>
+    <div class=center>
+      <div class="container left">
+
+        <iframe id="left" onload="leftonload();" src="" width="600px" height="500px"> </iframe>
+      </div>
+      <div class="container right">
+        <iframe id="right" onload="rightonload();" src="" width="600px" height="500px"> </iframe>
+      </div>
+    </div>
+    <button onclick="trunleft();">  &lt;&lt; </button>
+      <button onclick="trunright();"> &gt;&gt; </button>
+  </body>
+</html>
